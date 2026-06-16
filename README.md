@@ -1,5 +1,7 @@
 # webmcp-shop
 
+▶ **Live demo: https://webmcp-shop.vercel.app**
+
 An online store — works normally for humans (catalog → product → cart → checkout)
 **and** exposes all of its features to AI agents via **WebMCP**. Every human action has
 an equivalent as a tool operating on the same logic (`src/store/cart.ts`).
@@ -16,11 +18,11 @@ entirely by an AI agent through WebMCP tools, with human-in-the-loop confirmatio
 The goal is simple: make it easy to verify that an agent can _really_ operate a WebMCP-enabled
 site, end to end. Fork it, point your agent at it, and see what works.
 
-**WebMCP demo set:**
-[acme](https://github.com/qiun/webmcp-acme) ·
-[shop](https://github.com/qiun/webmcp-shop) ·
-[stays](https://github.com/qiun/webmcp-stays) ·
-[airline](https://github.com/qiun/webmcp-airline)
+**WebMCP demo set** — live demos ([source](https://github.com/qiun?tab=repositories&q=webmcp)):
+[acme](https://webmcp-acme.vercel.app) ·
+[shop](https://webmcp-shop.vercel.app) ·
+[stays](https://webmcp-stays.vercel.app) ·
+[airline](https://webmcp-airline.vercel.app)
 
 ## Stack
 
