@@ -1,0 +1,14 @@
+{
+  "name": "WebMCP Shop (demo)",
+  "description": "A WebMCP playground for testing AI agents — an online store.",
+  "url": "https://example.com/",
+  "tools": [
+    { "name": "search_products", "description": "Searches products by phrase and category." },
+    { "name": "get_product_details", "description": "Product details by SKU." },
+    { "name": "list_categories", "description": "List of categories." },
+    { "name": "add_to_cart", "description": "Adds a product to the cart." },
+    { "name": "update_cart_item", "description": "Changes the quantity or removes an item." },
+    { "name": "get_cart", "description": "Cart contents and total." },
+    { "name": "checkout", "description": "Places an order (requires user confirmation)." }
+  ]
+}

@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Visible WebMCP states: show the user that an agent is filling/submitting the form.
+   The :tool-form-active / :tool-submit-active selectors are part of the Declarative API. */
+@layer components {
+  form:where(:tool-form-active) {
+    outline: 2px solid theme(colors.brand.400);
+    outline-offset: 4px;
+    border-radius: 0.75rem;
+  }
+
+  button:where(:tool-submit-active) {
+    box-shadow: 0 0 0 3px theme(colors.brand.300);
+  }
+}
+
+/* Visible focus ring for accessibility (keyboard). */
+:focus-visible {
+  outline: 2px solid theme(colors.brand.500);
+  outline-offset: 2px;
+}
